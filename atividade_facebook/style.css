@@ -1,0 +1,58 @@
+
+body{
+display: flex;
+padding: 200px;
+justify-content: center;
+align-items: center;
+background-color: darkgrey;
+}
+p{
+ text-align: center;
+  border-top: 45px;
+}
+h1{
+    text-align: center;
+}
+.formulario{
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline-color: white;
+    
+}
+.nascimento{
+    margin-top: 20px;
+    
+}
+button{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+hr{
+background-color: black;
+}
+.erro{
+    color: red;
+    display: contents;
+}
+.erro-idade{
+    color: red;
+    display: contents;
+}
+
+
+
+
+
+
+/* input: focus{
+    outlinr: none;
+} */

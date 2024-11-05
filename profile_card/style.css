@@ -41,38 +41,35 @@ h1 {
     color: var(--White);
 }
 
-p {
+.paragrafo {
     text-align: center;
-    font-family: "Inter", sans-serif;
     color: var(--Green);
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
 
 }
 
 .conteiner2 {
-
+    color: var(--White);
+    text-align: center;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    
+}
+a {
+    color: var(--White);
+    text-decoration: none;
+    background-color: var(--Grey-700);
+    height: 65px;
+    width: 500px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    font-family: "Inter", sans-serif;
+
 }
 
-P {
-    text-align: center;
-    color: var(--White);
-    font-family: "Inter", s ans-serif;
-    margin-top: 30px;
-}
-
-.links {
-    text-align: center;
-}
-
-a {
-    color: blueviolet;
-    text-decoration: none;
-}
-
-a:visited {
-    color: var(--White);
-}
 
 a:hover {
     background-color: var(--Green);
@@ -81,29 +78,4 @@ a:hover {
 
 a:active {
     background-color: darkseagreen;
-}
-
-.conte2 {
-    text-align: center;
-}
-
-a {
-    color: blueviolet;
-    text-decoration: none;
-}
-
-a:visited {
-    color: var(--White);
-}
-
-a:hover {
-    background-color: var(--Green);
-    color: var(--White);
-}
-
-a:active {
-    background-color: darkseagreen;
-}
-a{
-    font-family: "Inter", sans-serif;  
 }
